@@ -1,5 +1,5 @@
 # Wiki
-An online encyclopedia. 
+An online customizable encyclopedia. 
 
 # Description
 
