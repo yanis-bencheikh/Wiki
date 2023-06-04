@@ -1,0 +1,13 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Not Found : {{ atitle }}
+{% endblock %}
+
+{% block body %}
+    <h1 style="text-align: center">Error 404</h1>
+    <br>
+    <ul>
+    <li>The page corresponding to "<b>{{ atitle }}</b>" does not presently exist in the encyclopedia</li>
+    </ul>
+{% endblock %}

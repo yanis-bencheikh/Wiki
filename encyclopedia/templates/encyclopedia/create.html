@@ -1,0 +1,33 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block body %}
+    <h1>Create</h1>
+
+    <form action="{% url 'wiki:save' %}" method="POST" id="pageform">
+
+        {% csrf_token %}
+
+        <br>
+
+        {{ titleform }}
+        {{ error_message|safe }}
+
+        <br><br>
+
+        <label for="content">Enter Description:</label>
+
+        <div style="text-align: center">
+            <input type="submit" value="Save">
+        </div>
+
+        <br>
+
+    </form>
+
+        <textarea id="content" name="content" rows="4" cols="50" form="pageform">{{ content }}</textarea>
+{% endblock %}
+
