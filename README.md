@@ -1,2 +1,6 @@
 # Wiki
-Encyclopedia Project created using HTML5, Python &amp; Django  
+An online encyclopedia. 
+
+# Description
+
+It currently displays a project where I utilised **HTML5, CSS, Python and the web framework Django** to familiarise myself with web development while studying in Harvard School of Engineering and Applied Sciences's online course "CS50's Web Programming with Python and JavaScript".
